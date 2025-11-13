@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrionAI Assistant</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Babel Standalone for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -48,6 +50,7 @@
 </head>
 <body class="bg-gray-900 text-white font-sans">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Change script type for Babel and add presets for TSX -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
 </body>
 </html>
