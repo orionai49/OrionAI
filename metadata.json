@@ -1,0 +1,8 @@
+{
+  "name": "OrionAI - Your All-in-One Gemini Assistant",
+  "description": "A powerful application showcasing the diverse capabilities of the Gemini API. Features include an advanced chatbot, image generation and editing, data analysis with Google Search and Maps grounding, text-to-speech, and multiple performance tiers for various tasks.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
